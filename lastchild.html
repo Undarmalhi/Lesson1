@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul id="myList">
+  <li>London</li>
+  <li>Ulaanbaatar</li>
+    <li>Seoul</li>
+        <li>Berlin</li>
+</ul>
+
+<p>The HTML content of "myLIST"s last child element is:</p>
+<p id="demo"></p>
+
+<script>
+const element = document.getElementById("myList")
+document.getElementById("demo").innerHTML = element.lastElementChild.innerHTML;
+</script>
+
+</body>
+</html>
+
